@@ -1,0 +1,7 @@
+# VSCode rest client extension
+POST http://localhost:3000/extract
+content-type: application/json
+
+{
+    "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+}

@@ -1,0 +1,8 @@
+version: '3.9'
+
+services:
+  pyser:
+    image: image-to-text-converter
+    container_name: imagetotext
+    ports:
+      - "3000:3000"
